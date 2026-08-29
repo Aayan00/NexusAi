@@ -24,6 +24,7 @@ from ai import (
 )
 
 app = Flask(__name__)
+app.config['SERVER_NAME'] = '127.0.0.1:5000'
 app.config['SECRET_KEY'] = os.getenv('SECRET_KEY', 'nexusai_secret_key_2026')
 db_path = os.path.abspath('data/nexusai.db').replace('\\', '/')
 app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DATABASE_URL', f'sqlite:///{db_path}')
@@ -999,4 +1000,4 @@ def api_expense_analysis():
     return jsonify(analyze_expenses(get_cid()))
 
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+    app.run(host="0.0.0.0", port=5000, debug=True)
