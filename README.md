@@ -4,7 +4,6 @@
 
 ---
 
-## 🚀 Overview
 
 Fragmented SaaS tools create data silos, administrative bloat, and operational inefficiencies for SMEs. **NexusAI** transforms this paradigm. Instead of giving business owners another software subscription, NexusAI acts as an **intelligent AI Employee**.
 
@@ -12,7 +11,7 @@ Connected directly to an SME's core database, NexusAI executes Python tools, per
 
 ---
 
-## ✨ Features
+##  Features
 
 - **AI Business Advisor**: Ask real-time questions about sales, inventory, expenses, and clients. Returns structured outputs: `INSIGHT`, `EVIDENCE`, `RECOMMENDATION`, and `ACTION`.
 - **"What should I focus on today?"**: Signature AI engine analyzing SQLite database state to generate dynamic daily business priorities.
@@ -37,7 +36,7 @@ Connected directly to an SME's core database, NexusAI executes Python tools, per
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```text
 NexusAI/
@@ -123,7 +122,7 @@ Open your browser and navigate to `http://127.0.0.1:5000`.
 
 ---
 
-## 🔑 Demo Account Credentials
+##  Demo Account Credentials
 
 Click **"Instant Hackathon Demo Login"** on the login page or use:
 - **Email**: `admin@nexusai.com`
@@ -131,7 +130,7 @@ Click **"Instant Hackathon Demo Login"** on the login page or use:
 
 ---
 
-## 🏆 Hackathon Demo Flow
+##  Hackathon Demo Flow
 
 1. Open `http://127.0.0.1:5000` and click **"Launch Instant Demo"**.
 2. View the **OS Dashboard** metrics, sales trend graph, and **"What should I focus on today?"** priority list.
